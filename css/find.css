@@ -1,0 +1,43 @@
+.find .find__options {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.find__options .find__option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find__options .find__option i {
+  padding-bottom: 10px;
+  color: #523737;
+}
+
+.find__options .find__option span {
+  font-size: 12px;
+}
+
+.find__recommended .recommended__title {
+  font-size: 12px;
+  margin: 5px 10px;
+  color: #b4b4b4;
+}
+
+.find__recommended .recommended__none {
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.find__recommended .recommended__none .recommended__text {
+  color: #b4b4b4;
+  font-size: 14px;
+}
